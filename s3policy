@@ -1,0 +1,16 @@
+{
+  "Id": "Policy1676150664720",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1676150661205",
+      "Action": [
+        "s3:PutObjectAcl",
+        "s3:PutObjectVersionAcl"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::lulu22",
+      "Principal": "*"
+    }
+  ]
+}
